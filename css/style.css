@@ -1,0 +1,76 @@
+body {
+  background-image: url("https://tiresone.github.io/tiresoonne_page/images/首页 背景图.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 5rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.banner_div {
+  padding: 100px 0px;
+}
+.top_a {
+  /* 设置宽度高度背景颜色 */
+  height: auto; /*高度改为自动高度*/
+  width: 100%;
+  background: rgba(157, 128, 252, 0.896);
+  position: fixed; /*固定在顶部*/
+  top: 0; /*离顶部的距离为0*/
+  margin-bottom: 0px;
+}
+.top_a ul {
+  /* 清除ul标签的默认样式 */
+  width: auto; /*宽度也改为自动*/
+  list-style-type: none;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 5%;
+  /* margin-top: 0;          */
+  padding: 0;
+}
+.top_a li {
+  float: left; /* 使li内容横向浮动，即横向排列  */
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+
+ul li:first-of-type {
+  /* Refers to the first Li */
+  float: left;
+  padding-left: 50px;
+}
+
+ul li:last-of-type {
+  /* Refers to the last Li */
+  float: right;
+  padding-right: 50px;
+}
+
+.top_a li a {
+  /* 设置链接内容显示的格式*/
+  display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+  color: white;
+  text-align: center;
+  padding: 3px;
+  overflow: hidden;
+  text-decoration: none; /* 去除下划线 */
+}
+
+.top_a li a:hover {
+  color: aqua;
+  background-color: aquamarine;
+}
+
+.items {
+  text-align: center;
+}
