@@ -44,6 +44,14 @@ body {
   padding: 10px;
 }
 
+.right_li {
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
 ul li:first-of-type {
   /* Refers to the first Li */
   float: left;
@@ -73,4 +81,10 @@ ul li:last-of-type {
 
 .items {
   text-align: center;
+}
+
+.bottom {
+  width: auto;
+  height: 200px;
+  background-color: rgb(9, 29, 18);
 }
