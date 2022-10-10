@@ -67,8 +67,8 @@ ul li:last-of-type {
 }
 
 .top_a li a:hover {
-  color: aqua;
-  background-color: aquamarine;
+  color: rgb(66, 159, 225);
+  background-color: rgb(141, 188, 221);
 }
 
 .items {
