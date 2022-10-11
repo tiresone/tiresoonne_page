@@ -98,7 +98,7 @@ ul li:first-of-type {
 
 .items-linkbox {
   background-color: rgb(175, 218, 133);
-  width: 400px;
+  width: 250px;
   text-align: center;
   margin: auto;
 }
@@ -112,4 +112,20 @@ ul li:first-of-type {
   width: auto;
   height: 200px;
   background-color: rgb(9, 29, 18);
+}
+.bottom dl {
+  width: 200px;
+  float: left;
+  text-align: center;
+}
+.bottom dt {
+  color: aliceblue;
+  text-align: center;
+  font-size: larger;
+}
+.bottom dd {
+  color: aliceblue;
+  /* text-align: center; */
+  margin-inline-start: 0px;
+  font-size: smaller;
 }
