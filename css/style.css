@@ -16,12 +16,17 @@ body {
 .banner_div {
   padding: 100px 0px;
 }
+
+.top_box {
+  height: 100;
+  color: #000;
+}
 .top_a {
   /* 设置宽度高度背景颜色 */
   height: auto; /*高度改为自动高度*/
   width: 100%;
   background: rgba(157, 128, 252, 0.896);
-  position: fixed; /*固定在顶部*/
+  /* position: fixed; 固定在顶部 */
   top: 0; /*离顶部的距离为0*/
   margin-bottom: 0px;
 }
