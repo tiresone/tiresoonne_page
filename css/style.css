@@ -1,11 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  height: 100%;
+}
 body {
-  background-image: url("https://tiresone.github.io/tiresoonne_page/images/首页 背景图.png");
+  background-image: url("https://tiresone.github.io/tiresoonne_page/images/背景图.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 p {
   text-align: center;
+}
+
+a {
+  display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+  color: rgb(92, 162, 153);
+  overflow: hidden;
+  text-decoration: none; /* 去除下划线 */
 }
 
 .banner {
@@ -110,7 +127,7 @@ ul li:first-of-type {
 
 .bottom {
   width: auto;
-  height: 200px;
+  height: 400px;
   background-color: rgb(9, 29, 18);
 }
 .bottom dl {
@@ -119,8 +136,8 @@ ul li:first-of-type {
   text-align: center;
 }
 .bottom dt {
-  color: aliceblue;
-  text-align: center;
+  color: rgb(203, 218, 231);
+  /* text-align: center; */
   font-size: larger;
 }
 .bottom dd {
