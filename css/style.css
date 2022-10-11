@@ -92,6 +92,11 @@ ul li:last-of-type {
   text-align: center;
 }
 
+.items-bottom {
+  color: aliceblue;
+  text-align: center;
+}
+
 .bottom {
   width: auto;
   height: 200px;
