@@ -25,6 +25,11 @@ a {
   text-decoration: none; /* 去除下划线 */
 }
 
+.main {
+  height: auto;
+  margin: 20px;
+}
+
 .banner {
   font-size: 4.5rem;
   font-weight: 700;
@@ -126,7 +131,6 @@ ul li:first-of-type {
 }
 
 .bottom {
-  bottom: 0;
   width: auto;
   height: 400px;
   background-color: rgb(9, 29, 18);
