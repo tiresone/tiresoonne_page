@@ -126,6 +126,7 @@ ul li:first-of-type {
 }
 
 .bottom {
+  margin-top: 100%;
   width: auto;
   height: 400px;
   background-color: rgb(9, 29, 18);

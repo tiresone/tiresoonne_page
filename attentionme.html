@@ -8,40 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <!-- 网站顶部栏 -->
-    <div class="top_a">
-      <ul>
-        <li>
-          <a href="https://tiresone.github.io/tiresoonne_page/">TIRESOONNE</a>
-        </li>
-
-        <li>
-          <a href="https://tiresone.github.io/tiresoonne_page/contact.html"
-            >联系我</a
-          >
-        </li>
-        <li style="color: rgb(83, 45, 143)">
-          <a href="https://tiresone.github.io/tiresoonne_page/attentionme.html"
-            >关注我</a
-          >
-        </li>
-        <li>
-          <a href="https://tiresone.github.io/tiresoonne_page/cooperation.html"
-            >合作</a
-          >
-        </li>
-        <li>
-          <a href="https://tiresone.github.io/tiresoonne_page/try_to_use.html"
-            >试用</a
-          >
-        </li>
-        <li>
-          <a href="https://tiresone.github.io/tiresoonne_page/download.html"
-            >下载</a
-          >
-        </li>
-      </ul>
-    </div>
+    <!-- 顶部栏 -->
+    <div class="headerpage"></div>
 
     <!-- 主要内容 -->
     <div style="columns: 3" class="items">
@@ -72,10 +40,15 @@
       <a href="#">微信公众号<br /></a>
     </div>
     <!-- 底部栏 -->
-    <div class="bottom">
-      <div>
-        <p>yes</p>
-      </div>
-    </div>
+    <div class="footerpage"></div>
+
+    <!-- -->
+    <script src="js/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $(".headerpage").load("source_header.html");
+        $(".footerpage").load("source_footer.html");
+      });
+    </script>
   </body>
 </html>

@@ -10,42 +10,8 @@
 
   <body>
     <div>
-      <!-- 网站顶部栏 -->
-      <div class="top_a">
-        <ul>
-          <li>
-            <a href="https://tiresone.github.io/tiresoonne_page/">TIRESOONNE</a>
-          </li>
-
-          <li>
-            <a href="https://tiresone.github.io/tiresoonne_page/contact.html"
-              >联系我</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://tiresone.github.io/tiresoonne_page/attentionme.html"
-              >关注我</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://tiresone.github.io/tiresoonne_page/cooperation.html"
-              >合作</a
-            >
-          </li>
-          <li>
-            <a href="https://tiresone.github.io/tiresoonne_page/try_to_use.html"
-              >试用</a
-            >
-          </li>
-          <li>
-            <a href="https://tiresone.github.io/tiresoonne_page/download.html"
-              >下载</a
-            >
-          </li>
-        </ul>
-      </div>
+      <!-- 顶部栏 -->
+      <div class="headerpage"></div>
       <!-- 网站主要内容 -->
       <div>
         <div>
@@ -56,12 +22,17 @@
         </div>
       </div>
 
-      <!-- 网站底部 -->
-      <div class="bottom">
-        <div>
-          <p class="items-bottom">yes</p>
-        </div>
-      </div>
+      <!-- 底部栏 -->
+      <div class="footerpage"></div>
+
+      <!-- -->
+      <script src="js/jquery.min.js"></script>
+      <script>
+        $(function () {
+          $(".headerpage").load("source_header.html");
+          $(".footerpage").load("source_footer.html");
+        });
+      </script>
     </div>
   </body>
 </html>
