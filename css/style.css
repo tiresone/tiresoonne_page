@@ -22,6 +22,11 @@ a {
   text-decoration: none; /* 去除下划线 */
 }
 
+img {
+  height: auto;
+  width: auto;
+}
+
 .main {
   height: auto;
   margin: 20px;
