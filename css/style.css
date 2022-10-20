@@ -156,6 +156,11 @@ img {
 .itemsmain {
   width: 800px;
   height: 200px;
+  float: right;
+}
+.itemsmiddle {
+  width: 400px;
+  height: 200px;
   float: left;
 }
 .itemsright {
