@@ -148,6 +148,21 @@ img {
   display: block;
 }
 
+.itemsleft {
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+.itemsmain {
+  width: 800px;
+  height: 200px;
+  float: left;
+}
+.itemsright {
+  width: 400px;
+  height: 200px;
+  float: right;
+}
 .items {
   text-align: center;
 }
