@@ -16,6 +16,59 @@
       <div>
         <p>关于我是谁</p>
       </div>
+      <div>
+        <p>个人作品</p>
+        <div>
+          <p>平面作品</p>
+          <div>
+            <a href="#"><img src="#" alt="#" /></a>
+            <a href="#"><img src="#" alt="#" /></a>
+            <a href="#"><img src="#" alt="#" /></a>
+            <a href="#"><img src="#" alt="#" /></a>
+            <a href="#"><img src="#" alt="#" /></a>
+          </div>
+        </div>
+        <div>
+          <p>概念产品</p>
+          <div>
+            <a href="#"><img src="#" alt="#" /></a>
+            <a href="#"><img src="#" alt="#" /></a>
+            <a href="#"><img src="#" alt="#" /></a>
+            <a href="#"><img src="#" alt="#" /></a>
+            <a href="#"><img src="#" alt="#" /></a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p>点个赞</p>
+        <!-- <button id="NOL" onclick="Like()">0</buttonid>
+          <script>
+            function Like(uid,bv){
+              let record_of_like = database.get('点赞记录',uid,bv)
+              if(record_of_like){
+                let number_of_Like=database.decrease('点赞数',bv,1); 
+                database.delete('点赞记录',uid,bv);
+                document.getElementById(NOL).innerText=number_of_Like;
+              }
+              else{
+                let number_of_Like=database.increase('点赞数',bv,1); 
+                database.add('点赞记录',uid,bv);
+                document.getElementById(NOL).innerText=number_of_Like;
+              }
+              let
+            }
+          </script> -->
+        <button id="NOL" onclick="Like()">0</button>
+        <script>
+          function Like() {
+            let label_of_number_of_Like = window.document.getElementById("NOL");
+            let number_of_Like = parseInt(label_of_number_of_Like.innerText);
+            let new_number = number_of_Like + 1;
+            label_of_number_of_Like.innerText = new_number;
+            return;
+          }
+        </script>
+      </div>
     </div>
 
     <!-- 底部栏 -->

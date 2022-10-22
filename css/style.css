@@ -42,7 +42,7 @@ img {
 }
 
 .banner_div {
-  padding: 100px 0px;
+  padding: 200px 0px;
 }
 
 .top_box {
@@ -149,24 +149,28 @@ img {
 }
 
 .itemsleft {
-  width: 400px;
+  width: flex;
   height: 200px;
   float: left;
+  border: 100px;
 }
 .itemsmain {
-  width: 800px;
+  width: flex;
   height: 200px;
   float: right;
+  border: 100px;
 }
 .itemsmiddle {
-  width: 400px;
+  width: flex;
   height: 200px;
   float: left;
+  border: 100px;
 }
 .itemsright {
-  width: 400px;
+  width: flex;
   height: 200px;
   float: right;
+  border: 100px;
 }
 .items {
   text-align: center;
