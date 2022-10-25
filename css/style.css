@@ -8,7 +8,7 @@ html {
   height: 100%;
 }
 body {
-  background-image: url("/images/背景图.png");
+  background-image: url("https://tiresone.github.io/tiresoonne_page/images/背景图.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
