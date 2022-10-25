@@ -8,7 +8,7 @@ html {
   height: 100%;
 }
 body {
-  background-image: url("https://tiresone.github.io/tiresoonne_page/images/背景图.png");
+  background-image: url("/vs/pagewarehouse/images/背景图.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -25,6 +25,17 @@ a {
 img {
   height: 200px;
   width: auto;
+}
+
+.round_imgs {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
 }
 
 .main {
@@ -46,8 +57,8 @@ img {
 }
 
 .top_box {
-  height: 100;
-  color: #000;
+  height: 200px;
+  background-color: #000;
 }
 
 .menu {
@@ -149,28 +160,37 @@ img {
 }
 
 .itemsleft {
-  width: flex;
+  width: 300px;
   height: 200px;
   float: left;
   border: 100px;
+  position: relative;
+  text-align: center;
+  background-color: aliceblue;
 }
 .itemsmain {
-  width: flex;
+  width: 600px;
   height: 200px;
   float: right;
   border: 100px;
+  position: relative;
+  text-align: center;
 }
 .itemsmiddle {
   width: flex;
   height: 200px;
   float: left;
   border: 100px;
+  position: relative;
+  text-align: center;
 }
 .itemsright {
   width: flex;
   height: 200px;
   float: right;
   border: 100px;
+  position: relative;
+  text-align: center;
 }
 .items {
   text-align: center;
@@ -235,4 +255,60 @@ img {
   bottom: 10px;
   position: fixed;
   color: #000;
+}
+
+.appear_l2m {
+  position: relative;
+  -webkit-animation: appear_l2m 1s infinite; /*Safari and Chrome*/
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+  animation: appear_l2m 1s infinite;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+@keyframes appear_l2m {
+  from {
+    left: -400px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@-webkit-keyframes appear_l2m /*Safari and Chrome*/ {
+  from {
+    left: -400px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.appear_r2m {
+  position: relative;
+  -webkit-animation: appear_r2m 3s ease-in-out; /*Safari and Chrome*/
+  -webkit-animation-iteration-count: 1;
+  /* -webkit-animation-delay: 2s; */
+  animation: appear_r2m 3s ease-out;
+  animation-iteration-count: 1;
+  /* animation-delay: 2s; */
+}
+@keyframes appear_r2m {
+  from {
+    right: -400px;
+    color: rgba(0, 0, 0, 0);
+  }
+  to {
+    right: 0px;
+    color: #000;
+  }
+}
+@-webkit-keyframes appear_r2m /*Safari and Chrome*/ {
+  from {
+    right: -400px;
+    color: rgba(0, 0, 0, 0);
+  }
+  to {
+    right: 0px;
+    color: #000;
+  }
 }
